@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int mask(int a) {
+    int s=0;
+    int s2=0;
+    while (a>0) {
+        if (a%10==4 || a%10==7) {
+            s=s*10+a%10;
+        }
+        a=a/10;
+
+    }
+    while (s>0) {
+        s2=s2*10+s%10;
+        s=s/10;
+    }
+    return s2;
+
+}
+int main() {
+    int a,b;
+   cin>>a>>b;
+   int i=a+1;
+    while (mask(i)!=b) {
+    i++;
+    }
+    cout<<i<<endl;
+    return 0;
+}
