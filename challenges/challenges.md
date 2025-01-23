@@ -9,6 +9,9 @@
 - **15-01-2025**: [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) - Leetcode
 - **16-01-2025**: [House Robber 2](https://leetcode.com/problems/house-robber-ii/) - Leetcode
 - **21-01-2025**: [Vacations](https://codeforces.com/problemset/problem/698/A) - Codeforces
+- **22-01-2025**: [Coin Change](https://leetcode.com/problems/coin-change) - Leetcode
+- **23-01-2025**: [Unique Paths](https://leetcode.com/problems/unique-paths/description/) - Leetcode
+  
   
 
   
