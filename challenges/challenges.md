@@ -11,6 +11,8 @@
 - **21-01-2025**: [Vacations](https://codeforces.com/problemset/problem/698/A) - Codeforces
 - **22-01-2025**: [Coin Change](https://leetcode.com/problems/coin-change) - Leetcode
 - **23-01-2025**: [Unique Paths](https://leetcode.com/problems/unique-paths/description/) - Leetcode
+- **24-01-2025**: [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/) - Leetcode
+
   
   
 
