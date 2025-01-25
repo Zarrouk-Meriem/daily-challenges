@@ -1,21 +1,21 @@
 class Solution {
 public:
-    void pathCounter(int i, int j, int m, int n, int& count) {
+    int pathCounter(int i, int j, int m, int n, vector<vector<int>>& dp) {
 
         if (i == m - 1 && j == n - 1) {
-            count++;
-            return;
+            return 1;
         }
-        if (i < m - 1) {
-            pathCounter(i + 1, j, m, n, count);
+        if (i >= m||j >=n) {
+            return 0;
         }
-        if (j < n - 1) {
-            pathCounter(i, j + 1, m, n, count);
+        if (dp[i][j] != -1) {
+            return dp[i][j];
         }
+        dp[i][j]=pathCounter(i+1,j,m,n,dp)+pathCounter(i,j+1,m,n,dp);
+        return dp[i][j];
     }
     int uniquePaths(int m, int n) {
-        int count = 0;
-        pathCounter(0, 0, m, n, count);
-        return count;
+        vector<vector<int>> dp(m, vector<int>(n, -1));
+        return pathCounter(0, 0, m, n, dp);
     }
 };
